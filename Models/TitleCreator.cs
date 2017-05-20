@@ -15,7 +15,6 @@ namespace ExpandableRecyclerViewDemo.Models
     public class TitleCreator
     {
         static TitleCreator _titleCreator;
-        Context context;
         List<TitleParent> _titleParents;
 
         public TitleCreator(Context context)
